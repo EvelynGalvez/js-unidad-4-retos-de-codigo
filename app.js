@@ -27,6 +27,24 @@ const areValidCredentials = (name, password) => {
 }
 
 
+/* 11) Escriba una función llamada computeSumOfAllElements.
+Dado un array de números, computeSumOfAllElements devuelve la suma de todos los elementos del array dado. */
+
+const computeSumOfAllElements = (arrNum) => {
+  let sum = 0 
+  arrNum.forEach(arrNum => sum += arrNum);
+}
+
+
+const addition = (arr) => {
+  let suma = 0;
+  for (let i = 0; i < arr.length; i++) {
+    suma = suma + arr[i];
+  }
+  return suma;
+}
+
+
 
 
 
